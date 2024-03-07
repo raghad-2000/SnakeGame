@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="snake.css">
+    <title>Snake Game</title>
+</head>
+<body>
+    <div id="page1">
+        <h1>Présentaton du jeu</h1>
+        <p>Snake is the common name for a video game concept
+            where the player maneuvers a line which grows in length,
+            with the line itself being a primary obstacle.
+            The concept originated in the 1976 two-player arcade game
+            Blockade from Gremlin Industries, and the ease of implementing Snake
+            has led to hundreds of versions (some of which have the
+            word snake or worm in the title) for many platforms. 
+            1982's Tron arcade game, based on the movie, includes Snake
+            gameplay for the single-player Light Cycles segment,
+            cementing a connection between the two. 
+        </p>
+		<input type="button" id="play"  onclick = "playbtn()" value="Play">    
+    </div>
+    <h1 hidden id="score" >Score 0</h1>
+    <canvas hidden id="canvas" style="background-color: black;"></canvas>  
+    <input hidden type="button" id="retry" value="Retry" >  
+</body>
+<script src="snake.js"></script>
+</html>
